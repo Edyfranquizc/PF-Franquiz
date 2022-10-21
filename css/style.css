@@ -380,7 +380,7 @@ a{
 
 /* Blog */
 
-/* .blog{ 
+/* .blog{  
   position: relative;
   width: 100%;
   height:calc(100vh);
@@ -388,13 +388,28 @@ a{
   background-size: cover;
   background-position: center;
   background-image: url("../assets/imagenes/coffe-03.jpg");
-  } */
+  /* }  */
 
 .blog{
   width: 100vh;
   margin: auto;
 }
 
+.blog-articulo{
+  max-width: 100%;
+  margin:auto;
+  padding-top:5rem ;
+  padding-bottom: 5rem;
+  text-align: justify;
+}
+
+.blog img{
+  width: 100vh;
+  margin: auto;
+  padding-top:3rem ;
+  padding-bottom: 3rem;
+
+}
 /* contacto-formulario */
 
 .form{
@@ -507,16 +522,6 @@ input[type=submit]:hover {
 .form-buttons a{
   color: #140d0e;
 }
-
-@media screen and (max-width: 880px){
-	.contact-box{
-		grid-template-columns: 1fr;
-	}
-	.left{
-		height: 200px;
-	}
-}
-
 .contactanos:after{
 	content: '';
     position: absolute;
@@ -526,6 +531,15 @@ input[type=submit]:hover {
     height: 4px;
     width: 50px;
     border-radius: 2px;
+}
+/* @media contacto */
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
 }
 
 /* Footer buttons*/

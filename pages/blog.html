@@ -31,40 +31,53 @@
       </ul>
     </nav>
     </header>
-  
-  
-  <section class="blog">
     <h1>Blog</h1>
- 
-  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="5000">
-        <img src="/assets/imagenes/fotos-preparacion-cafe.02.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="/assets/imagenes/fotos-preparacion-cafe.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="/assets/imagenes/forto-tienda-coffe.jpg" class="d-block w-100" alt="...">
-      </div>
+    <div class="dropdown">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Todos los temas
+      </a>
+    
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Blog</a></li>
+        <li><a class="dropdown-item" href="#">Galeria</a></li>
+        <li><a class="dropdown-item" href="#">Trending coffe</a></li>
+      </ul>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
+  <section class="blog">  
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="../assets/imagenes/fotos-preparacion-cafe.02.jpg" class="d-block w-100" alt="foto de hombre preparando café en la tienda hellocoffe">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="../assets/imagenes/fotos-preparacion-cafe.jpg" class="d-block w-100" alt="foto de hombre colocando granos de café en la maquina">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="../assets/imagenes/forto-tienda-coffe.jpg" class="d-block w-100" alt="foto de mujer limpiando mesa en la tienda hellocoffe">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   <div class="blog-articulo">
     <article>
       <h3>¡Nuestro nuevo Café está aquí!</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae mollitia, sit enim quibusdam reiciendis perferendis hic distinctio est similique iusto laudantium, facilis reprehenderit cum accusamus quia sequi at libero. Eos.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos fugit alias aspernatur dolores eum quas rerum debitis eaque ipsam quia! Repellat esse, at ratione saepe vitae eum aspernatur quod. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi fugiat rem quae itaque assumenda placeat corporis suscipit dolore, quidem deleniti nesciunt dolorum quasi iure totam obcaecati exercitationem tempora facere magnam.
+      <p>Estamos muy emocionados de anunciar que finalmente estamos por abrir nuestro café en el corazón de Ciudad de Cordóba. El equipo de Hellocoffe ha estado trabajando en esto durante años. Sabíamos que un antiguo edificio que era una fabrica textil  sería el hogar perfecto para una cafetería. La transitabilidad del centro histórico, el detalle arquitectónico y la iluminación natural son elementos que buscamos para crear un nuevo espacio para que disfrutes de nuestro café.
+
+        La pandemia generó importantes desafíos. Las restricciones de Covid, los problemas de la cadena de suministro y la escasez de mano de obra crearon obstáculos únicos y retrasos significativos. Pero nuestro equipo ha sido positivo e increíblemente resistente. Todos han trabajado duro para ofrecer un nuevo y hermoso café. Aunque todavía se necesitan algunos retoques, abriremos nuestras puertas este mes de Noviembre de 12 a 6. Durante las próximas semanas agregaremos los pulidos finales y celebraremos con una Gran Inauguración en algún momento del mes de Diciembre. Estén atentos a nuestras redes sociales para más actualizaciones.
+        
+        Nuevamente, estamos entusiasmados con esta nueva ubicación y otra oportunidad de crear una comunidad de café. Esperamos verte pronto.
+        
+        Salud,
+        Edgar Rivero.
       </p>
-      <img src="/assets/imagenes/img-tienda-coffe.jpg" alt="tienda Hellocoffe">
+      <img src="../assets/imagenes/img-tienda-coffe.jpg" alt="tienda Hellocoffe">
     </article>
     <article>
       <h3>PRONTO!! MEXICO, EL CIPRESAL </h3>
@@ -72,14 +85,18 @@
 
         Probamos: Plátano, chocolate negro, arándano, floral.
       </p>
+
+      <img src="../assets/imagenes/img-mujeres-mexico.jpg" alt="mujeres mexicanas">
     </article>
+    <br>
+
+    <a href="../pages/blog.html"><i class="fa-solid fa-arrow-left"></i><b> Volver al Blog </b></a>
 
     
   </div>
 </section>
 
   <footer>
-  </div>
   <div class="buttons">
     <a href="#"><i class="fa-brands fa-instagram"></i></a>
     <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -95,7 +112,7 @@
       name="email"
       id="email"
       required/>
-      <input id="submit" type="submit" value="Enviar" />
+      <input id="submit" type="submit" value="Enviar"/>
       </form>
 </div>
   <ul>
@@ -112,8 +129,7 @@
 
 
 
-<!-- bootrap para agregar más adelante -->
-  <!-- JavaScript Bundle with Popper -->
+
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

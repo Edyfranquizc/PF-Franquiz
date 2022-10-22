@@ -24,6 +24,7 @@ h1 {
   padding-top: 3rem;
   padding-bottom: 3rem;
   font-weight: bold;
+  font-size: 50px;
 }
 h2{
   color:#B78A1B;
@@ -188,6 +189,7 @@ a{
   #check:checked ~ ul{
       left: 0;
   }
+
 }
 
 /*banner-inicio*/
@@ -379,17 +381,35 @@ a{
 }
 
 /* Blog */
+.dropdown{ 
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  text-align: center;
 
-/* .blog{  
-  position: relative;
-  width: 100%;
-  height:calc(100vh);
-  background-color:rgba(128, 128, 128, 0.833);
-  background-size: cover;
-  background-position: center;
-  background-image: url("../assets/imagenes/coffe-03.jpg");
-  /* }  */
+}
+.btn {
+  background-color: #402E32;
+  color:#fff;
+  font-weight: bold;
+  font-size: 16x;
+}
+.dropdown-menu{
+  font: size 15px;
+  cursor: pointer;
+  color: #242526;
+}
+.dropdown a:hover{
+  background-color:#DFE0DF;
+  color: #f38e29;
+  font-weight: bold;
+}
 
+
+#carouselExampleInterval{
+  padding-top:5rem;
+  padding-bottom: 3rem;
+}
 .blog{
   width: 100vh;
   margin: auto;
@@ -398,7 +418,7 @@ a{
 .blog-articulo{
   max-width: 100%;
   margin:auto;
-  padding-top:5rem ;
+  padding-top:2rem;
   padding-bottom: 5rem;
   text-align: justify;
 }
@@ -408,8 +428,43 @@ a{
   margin: auto;
   padding-top:3rem ;
   padding-bottom: 3rem;
-
 }
+.blog a{
+  text-decoration: none;
+  color: #fff;
+  background-color:#0a0700df;
+  padding: 20px;
+  border-radius: 45px;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  transition: all .4s ease-in-out;
+  justify-content: center;
+}
+
+.blog a:hover{
+  background-color:#f38e29;
+  color: #fff;
+}
+
+@media screen and (max-width: 880px){
+  .blog{
+    max-width: 100%;
+    margin: auto;
+  }
+  .blog-articulo{
+    width: 90%;
+    margin:auto;
+    text-align: justify;
+  }
+  
+  .blog img{
+    width: 100vh;
+    margin: auto;
+    padding-top:3rem ;
+    padding-bottom: 3rem;
+  }
+}
+
 /* contacto-formulario */
 
 .form{
@@ -513,7 +568,7 @@ input[type=submit]:hover {
   margin: auto;
   display: grid;
   padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   font-size: 18px;
   list-style: none;
   justify-content: space-around;
@@ -531,6 +586,16 @@ input[type=submit]:hover {
     height: 4px;
     width: 50px;
     border-radius: 2px;
+}
+.contacto-Map{
+	max-width:100%;
+	height: 100%;
+  margin: auto;
+	justify-content: center;
+	align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
 }
 /* @media contacto */
 @media screen and (max-width: 880px){

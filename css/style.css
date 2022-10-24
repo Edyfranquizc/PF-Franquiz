@@ -443,7 +443,6 @@ a{
 } 
 
 
-
 @media screen and (max-width: 880px){
   .blog{
     max-width: 100%;
@@ -508,8 +507,6 @@ a{
   flex:100%;
   }
 }
-
-
 
 /* contacto-formulario */
 

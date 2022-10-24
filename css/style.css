@@ -42,7 +42,7 @@ a{
 /* HEADER - NAVBAR */
 
 .site-header{
-  width:100%;
+  width:110%;
   height:155px;
   padding: 1rem 0 3rem 0;
   background-color:#BDA887;
@@ -62,7 +62,7 @@ a{
 }
 
 .enlace {
-  position: absolute;
+  position: flex;
   padding: 10px 60px;
 }
 
@@ -113,7 +113,7 @@ a{
 .checkbtn{
   font-size:30px;
   color: #fff;
-  float:right ;
+  float:right;
   line-height: 150px;
   margin-right: 60px;
   cursor: pointer;
@@ -124,9 +124,12 @@ a{
 }
 
 /* NAVBAR VERSION (TABLET )*/
-@media (max-width: 952px){
+@media (max-width: 950px){
   .enlace{
-      padding-left: 20px;
+      padding: 1rem;
+      padding-right: 5rem;
+   
+      
   }
   #navbar ul li a{
       font-size: 16px;
@@ -134,7 +137,8 @@ a{
 }
 /* HEADER VERSION (MOBILE) */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) { 
+
   .checkbtn{
       display: block;
   }
@@ -144,7 +148,7 @@ a{
     position: relative;
   }
   .enlace{
-    display:block;
+    display: block;
     margin-left: 10px;
     margin-top: 10px;
     margin-right:40px;
@@ -641,8 +645,26 @@ input[type=submit]:hover {
   padding-bottom: 5rem;
 }
 /* @media contacto */
+@media screen and (max-width: 800px){
+  .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+  
+  .contact-box{
+    display: block;
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
+
 @media screen and (max-width: 600px){
-	.contact-box{
+  
+  .contact-box{
 		grid-template-columns: 1fr;
 	}
 	.left{

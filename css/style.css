@@ -645,7 +645,7 @@ input[type=submit]:hover {
   padding-bottom: 5rem;
 }
 /* @media contacto */
-@media screen and (min-width: 950px){
+@media screen and (max-width: 880px){
   
   .contact-box{
 		grid-template-columns: 1fr;
@@ -656,12 +656,7 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 600px){
-  .form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    }
   .contact-box{
 		grid-template-columns: 1fr;
 	}

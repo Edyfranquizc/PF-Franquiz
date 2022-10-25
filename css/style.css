@@ -295,6 +295,15 @@ a{
   padding-bottom: 5px;
 }
 
+@media screen and (max-width: 600px) {
+  .banner-content .banner-titulo {
+   font-size: 50px;
+  }
+  .cafe{
+   font-size: 70px;
+  }
+}
+
 /* abaut */
 .sobre-nosotros {
   max-width: 80%;

@@ -1,3 +1,4 @@
+
 # PreEntrega2Franquiz
 🖖🏼Hola Mi nombre es Edygar Franquiz
 !Bienvenido a mi proyecto de CoderHouse! 😎🤍💻
@@ -10,4 +11,7 @@ Git: uso de github, armado de repositorio, manejo de ramas e implementación en 
 Nota: El proyecto no está finalizado. Faltan cosas por agregar y terminar en la web, pero vamos por buen camino "Wish me luck and success✨"
 En la siguiente URL podras ver el resultado al momento: 😊 👉🏼  https://edyfranquizc.github.io/PreEntrega2Franquiz/
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e7cdeb8a25bd86ada0581cd47e81d216ca5f7e1b

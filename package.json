@@ -1,0 +1,19 @@
+{
+  "name": "pagina-web-hellocoffe",
+  "version": "1.0.0",
+  "description": "Proyecto Hellocoffe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edyfranquizc/PreEntrega2Franquiz.git"
+  },
+  "author": "Edygar Franquiz C.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edyfranquizc/PreEntrega2Franquiz/issues"
+  },
+  "homepage": "https://github.com/Edyfranquizc/PreEntrega2Franquiz#readme"
+}

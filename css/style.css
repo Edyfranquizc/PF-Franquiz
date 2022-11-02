@@ -30,7 +30,9 @@ h2 {
   font-size: 25px;
   font-weight: bold;
 }
-
+h3{
+  font-size: 20px;
+}
 p {
   font-size: 18px;
 }
@@ -40,9 +42,24 @@ a {
   list-style: none;
 }
 
+@media (max-width: 700px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  a {
+    font-size: 1rem;
+  }
+}
+
 /* HEADER - NAVBAR */
 .site-header {
-  width: 110%;
+  width: 100%;
   height: 155px;
   padding: 1rem 0 3rem 0;
   background-color: #BDA887;
@@ -124,12 +141,52 @@ a {
 
 /* NAVBAR VERSION (TABLET )*/
 @media (max-width: 950px) {
+  .checkbtn {
+    display: block;
+  }
+  .site-header {
+    width: 100%;
+    position: relative;
+  }
+  
   .enlace {
+    display: block;
     padding: 1rem;
     padding-right: 5rem;
   }
+  #navbar ul {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #DFE0DF;
+    line-height: 2;
+    top: 155px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.4s;
+  }
+  #navbar ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
   #navbar ul li a {
+    font-size: 12px;
+    border: 2px solid white;
+    border-radius: 0 20px;
+    background-color: #402E32;
     font-size: 16px;
+  }
+  #navbar ul li a:hover {
+    background: #BDA887;
+    color: #fefffe;
+    padding: 20px;
+  }
+  .active:hover {
+    background: none;
+  }
+  #check:checked ~ ul {
+    left: 0;
   }
 }
 /* HEADER VERSION (MOBILE) */
@@ -164,7 +221,7 @@ a {
     line-height: 30px;
   }
   #navbar ul li a {
-    font-size: 20px;
+    font-size: 12px;
     border: 2px solid white;
     border-radius: 0 20px;
     background-color: #402E32;
@@ -237,6 +294,14 @@ a {
   font-size: 90px;
   border-radius: 5px;
 }
+@media screen and (max-width: 600px) {
+  .banner-content .banner-titulo {
+    font-size: 50px;
+  }
+  .cafe {
+    font-size: 70px;
+  }
+}
 
 /*  inicio */
 #inicio-consultas {
@@ -282,17 +347,11 @@ a {
   padding-bottom: 5px;
 }
 
-@media screen and (max-width: 600px) {
-  .banner-content .banner-titulo {
-    font-size: 50px;
-  }
-  .cafe {
-    font-size: 70px;
-  }
-}
+
 /* abaut */
 .sobre-nosotros {
-  max-width: 80%;
+  width: 70%;
+  height: 70%;
   margin: auto;
   padding-top: 5rem;
   padding-bottom: 2rem;
@@ -309,12 +368,30 @@ a {
 .sobre-nosotros img {
   display: flex;
   width: 100vh;
-  height: 80vh;
+  height: 90vh;
   justify-content: center;
   align-items: center;
   margin: auto;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .sobre-nosotros {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: justify;
+  }
+  .sobre-nosotros img {
+    width: 50vh;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
 /* shop-tienda */
@@ -739,6 +816,17 @@ input[type=submit]:hover {
   font-size: 15px;
   border: none;
   border-radius: 4px;
+}
+@media screen and (max-width: 600px){
+  .form-newsletter h3 {
+    font-size: 30px;
+  }
+  .form-newsletter form input:first-child {
+    max-width: 300px;  
+}
+.form-newsletter form input[type=submit]{
+  font-size: 12px;
+}
 }
 
 /* Footer */

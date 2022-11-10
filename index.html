@@ -11,9 +11,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:wght@100;400&family=Silkscreen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
-   
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/imagenes/coffe-01.png"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Hello Coffe</title>
 </head>
 <body>
@@ -36,7 +36,8 @@
   </nav>
   </header>
 <section class="banner">
-  <div class="banner-content">
+  <div class="banner-content" data-aos="fade-up"
+  data-aos-duration="1500">
     <h1 class="banner-titulo"> Bienvenidos a Hellocoffe<br>Para los entusiastas del <span class="cafe">CAFÉ</span>
     </h1>
     <a href="./pages/shop.html"><b> Ir a comprar</b></a>
@@ -51,7 +52,8 @@
     </p>
 </section>
 <div id="inicio">
-  <div class="card" data-aos="zoom-in-right">
+  <div class="card" data-aos="fade-right"
+    data-aos-offset="300" data-aos-easing="ease-in-sine">
     <div class="icon"><i class="fa fa-credit-card-alt" aria-hidden="true"></i>
     </div>
   <div class="content">
@@ -68,7 +70,8 @@
     </p>
   </div>
 </div>
-<div class="card" data-aos="zoom-in-right">
+<div class="card" data-aos="fade-right"
+  data-aos-offset="300" data-aos-easing="ease-in-sine">
   <div class="icon"><i class="fa fa-truck" aria-hidden="true"></i></div>
   <div class="content">
     <h2> ENVIAMOS TU COMPRA </h2>
@@ -80,7 +83,8 @@
   </div>
 </div>
 
-<div class="card" data-aos="zoom-in-right">
+<div class="card" data-aos="fade-right"
+  data-aos-offset="400" data-aos-easing="ease-in-sine">
   <div class="icon"><i class="fa-solid fa-award"></i></div>
   <div class="content">
     <h2>PRODUCTOS DE GARANTÍA</h2>
@@ -139,6 +143,11 @@
 
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 </html>
 

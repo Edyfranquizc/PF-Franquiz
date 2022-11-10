@@ -480,7 +480,7 @@ footer {
   margin: 0;
   padding: 0;
   padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   width: 100%;
   height: 100%;
   color: #ffffff;
@@ -492,7 +492,7 @@ footer {
   .banner-content .banner-titulo {
     margin: 0;
     padding: 0;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
     font-size: 60px;
     text-align: center;
     color: #fff9f3;

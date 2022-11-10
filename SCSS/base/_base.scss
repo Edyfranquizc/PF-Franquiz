@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=M+PLUS+1p:wght@500;700&display=swap");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: $font-Montserrat;
+    text-decoration: none;
+    }
+
+    img {
+    max-width: 100%;
+    }
+
+    h1 {
+    color:$color-h1;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+    font-size:50px;
+    }
+
+    h2 {
+    color: $color-h2;
+    font-size: 25px;
+    font-weight:bold;
+    }
+    h3{
+    font-size: 20px;
+    }
+    p {
+    font-size: 18px;
+    }
+
+    a {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    }
+
+    ul{
+        list-style-type:none;
+    }
+
+
+    
+
+
+    

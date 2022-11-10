@@ -1,0 +1,40 @@
+footer {
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:$lightgray;
+	color: $super-darkbrown;
+	p {
+		font-size: 20px;
+	}
+	>ul {
+		padding: 1;
+		li {
+			display: flex;
+			&:not(last-child) {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			a {
+				border-radius: 0 20px;
+				color: $super-darkbrown;
+				text-decoration: none;
+				&:hover {
+					transform: scale(1.2);
+					color: $deep-orange;
+					font-weight: bolder;
+				}
+			}
+		}
+	}	
+}
+.copyrigt {
+	font-size: 12px;
+	text-align: center;
+}
+
+
+
+

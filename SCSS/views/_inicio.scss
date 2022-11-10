@@ -1,0 +1,38 @@
+#inicio-consultas {
+	margin: auto;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-align: justify;
+}
+#inicio {
+	max-width: 70%;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-weight: bold;
+	.card {
+		padding-top: 2rem;
+		padding-bottom: 5rem;
+		min-width: 40px;
+		display: inline-flex;
+		border: none;
+		.icon {
+			padding-right: 5rem;
+			text-decoration: none;
+			font-size: 30px;
+			width: 70px;
+			height: 10px;
+			line-height: 60px;
+			text-align: center;
+			color: $color-darkbrown;
+			justify-content: space-around;
+		}
+		.content {
+			padding-left: 50px;
+			padding-bottom: 5px;
+		}
+	}
+}

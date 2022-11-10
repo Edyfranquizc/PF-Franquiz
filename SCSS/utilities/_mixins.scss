@@ -1,0 +1,15 @@
+/*mixins-flex*/
+@mixin flexible( $dis , $envelope , $just , $align ){
+    display         : $dis;
+    flex-wrap       : $wrap;
+    justify-content : $just;
+    align-items     : $align;
+}
+
+.shop-tienda{
+    @include flexible( flex , wrap , center , center );
+}
+
+
+
+

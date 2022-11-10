@@ -1,0 +1,41 @@
+.sobre-nosotros {
+	width: 70%;
+	height: 70%;
+	margin: auto;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-align: justify;
+	h2 {
+		text-align: center;
+		padding-bottom: 3rem;
+	}
+	@include movil{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		text-align: justify;
+		img {
+			width: 80vh;
+			height: 80vh;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+	}
+	img {
+		display: flex;
+		width: 80vh;
+		height: 70vh;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+	
+}
+
+

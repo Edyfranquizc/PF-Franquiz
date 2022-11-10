@@ -1,0 +1,49 @@
+.row {
+	display: flex;
+	padding: 1rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	flex: wrap;
+}
+.column {
+	flex: 25%;
+	padding: 5px;
+
+	img {
+		margin-top: 5px;
+	}
+}
+@include tablet{
+	.column{
+		flex: 50%;
+	}
+}
+@include movil{
+	.column{
+		flex: 100%;
+	}
+}
+.button-blog {
+	padding-bottom: 5rem;
+	display: flex;
+	justify-content: center;
+	a {
+		text-decoration: none;
+		color: $color-active;
+		background-color: $super-darkbrown;
+		padding: 10px;
+		border-radius: 40px;
+		border: 1px solid $color-white;
+		text-transform: uppercase;
+		transition: all 0.4s ease-in-out;
+		justify-content: center;
+		&:hover {
+			background-color: $deep-orange;
+			color:$color-active;
+		}
+	}
+	
+}
+
+
+

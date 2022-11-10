@@ -1,0 +1,63 @@
+/*banner-inicio*/
+.banner {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: $cement-gray;
+	background-size: cover;
+	background-position: center center;
+	background-image: url("../assets/imagenes/coffe-03.jpg");
+}
+.banner-content {
+	margin: 0;
+	padding: 0;
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+	width: 100%;
+	height: 100%;
+	color: $color-white;
+	background-color: $background-banner;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.banner-titulo {
+		margin: 0;
+		padding: 0;
+		padding-bottom: 5rem;
+		font-size: 60px;
+		text-align: center;
+		color: $titulo-banner;
+		font-family: $font-m-plus-1p;
+	}
+	@include movil{
+		.banner-titulo {
+			font-size: 45px;
+		}
+		.cafe {
+			font-size: 65px;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: $color-white;
+		background-color:$super-darkbrown;
+		padding: 10px;
+		border-radius: 40px;
+		border: 1px solid $color-white;
+		text-transform: uppercase;
+		transition: all 0.4s ease-in-out;
+		&:hover {
+		background-color: $lightbeige;
+		color:$color-darkbrown;
+		}
+	}
+}
+.cafe {
+	color:$titulo-cafe;
+	font-size: 70px;
+	border-radius: 5px;
+}
+
+
+

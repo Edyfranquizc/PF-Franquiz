@@ -1,0 +1,24 @@
+
+/* utilities*/
+    @import './utilities/variables';
+    @import './utilities/mixins';
+/*base*/
+    @import './base/reset';
+    @import './base/base';
+/*layout*/
+    @import './layout/header';
+    @import './layout/forms';
+    @import './layout/footer';
+    @import './layout/medios';
+/*components*/
+    @import './components/banner';
+    @import './components/buttons';
+/*views*/
+    @import './views/inicio';
+    @import './views/abaut';
+    @import './views/shop';
+    @import './views/blog';
+    @import './views/galeria';
+
+
+    

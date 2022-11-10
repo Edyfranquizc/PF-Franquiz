@@ -1,0 +1,79 @@
+.dropdown {
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	text-align: center;
+	a {
+		&:hover {
+			background-color: $lightgray;
+			color: $deep-orange;
+			font-weight: bold;
+		}
+	}
+}
+.btn {
+	background-color: $color-darkbrown;
+	color: $color-active;
+	font-weight: bold;
+	font-size: 16x;
+}
+.dropdown-menu {
+	font: size 15px;
+	cursor: pointer;
+	color: $super-darkbrown;
+}
+#carouselExampleInterval {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+.blog {
+	width: 50vh;
+	margin: auto;
+	img {
+		width: 50vh;
+		margin: auto;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+	a {
+		text-decoration: none;
+		color: $color-active;
+		background-color: $super-darkbrown;
+		padding: 10px;
+		border-radius: 40px;
+		border: 1px solid $color-white;
+		text-transform: uppercase;
+		transition: all 0.4s ease-in-out;
+		justify-content: center;
+		&:hover {
+			background-color: $deep-orange;
+			color:$color-active;
+		}
+		@include movil {
+			.blog {
+				max-width: 100%;
+				margin: auto;
+			}
+			.blog-articulo {
+				width: 100%;
+				margin: auto;
+				text-align: justify;
+			}
+			.blog img {
+				width: 100vh;
+				margin: auto;
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+			}
+			}
+		}
+	}
+.blog-articulo {
+	max-width: 90%;
+	margin: auto;
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+	text-align: justify;
+}
+
+

@@ -1,0 +1,47 @@
+.trending {
+    width:70%;
+	height:70%;
+    line-height:2;
+	margin:auto;
+    padding-top:3rem;
+	padding-bottom:1rem;
+	padding-left:5rem;
+	padding-right:5rem;
+	text-align:justify;
+
+	@include movil{
+		width: 100%;
+		height: 100%;
+	}
+    h2{
+        padding-bottom: 2rem;
+    }
+    h3{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+	p{
+		padding-top: 2rem;
+        padding-bottom: 2rem;
+	}
+}
+code {
+    margin: auto;
+	max-width:80%;
+    color: $color-darkbrown;
+    padding-top: 5rem;
+    padding-bottom:10rem;
+	display: block;
+	text-align: left;
+	font-size:15px;
+	white-space: pre-line;
+	position: relative;
+	word-break: normal;
+	word-wrap: normal;
+	line-height:1;
+	background-color: $background-lightyellow;
+	padding: 15px;
+	margin: 10px;
+	border-radius:5px;
+    box-shadow: 0px 0px 19px 5px $shadow-brown;
+}

@@ -775,8 +775,19 @@ footer {
   @media screen and (max-width: 750px) {
     .trending {
       width: 100%;
-      height: 100%; } }
+      height: 100%;
+      margin: auto;
+      padding: 1rem;
+      padding-right: 1rem; }
+      .trending code {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        font-size: 15px; }
+      .trending p {
+        font-size: 15px; } }
   .trending h2 {
+    padding-top: 2rem;
     padding-bottom: 2rem; }
   .trending h3 {
     padding-top: 2rem;

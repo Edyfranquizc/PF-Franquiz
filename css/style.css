@@ -116,7 +116,7 @@ ul {
 
 .active {
   margin: auto;
-  color: #fff;
+  color: #BDA887;
   background-color: #402E32;
   padding: 10px; }
 
@@ -346,7 +346,7 @@ footer {
         background-color: #402E32; }
         #navbar ul li a:hover {
           background: rgba(255, 248, 236, 0.909804);
-          color: #fefffe;
+          color: #BDA887;
           padding: 20px; }
   .active:hover {
     background: none; }
@@ -385,7 +385,7 @@ footer {
         font-size: 16px; }
         #navbar ul li a:hover {
           background: rgba(255, 248, 236, 0.909804);
-          color: #fefffe;
+          color: #BDA887;
           padding: 20px; }
   .active:hover {
     background: none; }

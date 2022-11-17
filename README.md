@@ -18,4 +18,8 @@ Node modules: Se instaló y se agregó las dependencias nodemon y node-sass al p
 SEO: Se implemetó técnicas de SEO como meta tags description, keywords, favicon, utilización de las etiquetas semánticas y se agrego los alts a cada una de las imagenes. 
 
 
+<<<<<<< HEAD
 En la siguiente URL podras ver el resultado al momento: 😊 👉🏼  https://edyfranquizc.github.io/PF-Franquiz/
+=======
+En la siguiente URL podras ver el resultado al momento: 😊 👉🏼 https://edyfranquizc.github.io/PF-Franquiz/
+>>>>>>> 28b56fc0cfe0f65dfdc5dcc9a61fdaebb7bcc7c1
